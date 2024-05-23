@@ -8,6 +8,5 @@ app.use(express.json());
 app.use(express.urlencoded({
     extended:true
 }))
-app.use("/", ruta)
 app.set("puerto", process.env.PUERTO || 8000)
 app.use("/",ruta)
